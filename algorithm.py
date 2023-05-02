@@ -57,7 +57,7 @@ def bubble_sort(my_list):
                 my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
     print("Sorted:", my_list)
     end_time = time.time()
-    print(f"Time taken: {end_time - start_time} seconds")
+    print(f"Time taken: {float(end_time - start_time)} seconds")
     
 if __name__ == "__main__":
     my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, -3]
